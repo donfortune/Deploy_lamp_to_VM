@@ -17,3 +17,6 @@ Before running this project, ensure you have the following installed:
 ![Slave ip](images/slave_ip.png)
 2. I created a bash script to automate the deployment of a lamp stack on the master and made all necessary configurattions on datbase, php and the apache2 webservers. and i could access the web page on the ip of the master.
 ![Master webpage](images/live_master.png)
+
+3. I then installed ansible on the master tto enable me configure the slave
+   ![Ansible version](images/ansible_version.png)
