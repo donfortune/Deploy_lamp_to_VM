@@ -20,3 +20,8 @@ Before running this project, ensure you have the following installed:
 
 3. I then installed ansible on the master tto enable me configure the slave
    ![Ansible version](images/ansible_version.png)
+
+4. Use ansible adhoc commands to ping the slave
+   ![Ansible version](images/slave_ping.png)
+
+5. setup playbook and ran the playbook
