@@ -20,13 +20,15 @@ Before running this project, ensure you have the following installed:
 
 3. I then installed ansible on the master tto enable me configure the slave
    ![Ansible version](images/ansible_version.png)
+4. test SSH connection between Master and slave
+   ![ssh connection](images/ssh_slave.png)
 
-4. Use ansible adhoc commands to ping the slave
+5. Use ansible adhoc commands to ping the slave
    ![Ansible version](images/slave_ping.png)
 
-5. setup playbook and ran the playbook
+6. setup playbook and ran the playbook
    [Link to the playbook](https://github.com/donfortune/Deploy_lamp_to_VM/blob/main/playbook.yaml)
 
-6. accessing the slave ip to test success of the playbook
+7. accessing the slave ip to test success of the playbook
    ![Master webpage](images/live_slave.png)
 
