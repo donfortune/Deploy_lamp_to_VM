@@ -25,3 +25,5 @@ Before running this project, ensure you have the following installed:
    ![Ansible version](images/slave_ping.png)
 
 5. setup playbook and ran the playbook
+   [Link to the playbook](URL)
+
