@@ -28,5 +28,5 @@ Before running this project, ensure you have the following installed:
    [Link to the playbook](https://github.com/donfortune/Deploy_lamp_to_VM/blob/main/playbook.yaml)
 
 6. accessing the slave ip to test success of the playbook
-   ![Master webpage](images/slave_master.png)
+   ![Master webpage](images/live_slave.png)
 
