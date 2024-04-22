@@ -15,3 +15,4 @@ Before running this project, ensure you have the following installed:
 1. I provisioned two ubuntu machines using vagrant with virtual box and i assigned ip addresses to each machine, as shown below in a screenshot of their respecttive Vagranttfiles:
 ![Master ip](images/master_ip.png)
 ![Slave ip](images/slave_ip.png)
+2. I created a bash script to automate the deployment of a lamp stack on the master.
