@@ -11,10 +11,10 @@
         group: root
         mode: '0755'
 
-    - name: install lamp stack and laravel
+    - name: Execute the Script
       script: /home/vagrant/script.sh
     
-    - name: set cron job to check uptime of the server every 12 am
+    - name: set up cron job 
       cron:
         name: set cron job to check uptime of the server every 12 am
         minute: "0"
