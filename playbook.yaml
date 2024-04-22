@@ -1,0 +1,27 @@
+---
+- name: deploy lamp stack
+  hosts: 192.168.56.254 
+  become: true
+  tasks:
+    - name: Copy file with owner and permissions
+      ansible.builtin.copy:
+        src: /home/vagrant/script.sh
+        dest: /home/vagrant/deploy.sh
+        owner: root
+        group: root
+        mode: '0755'
+
+    - name: install lamp stack and laravel
+      script: /home/vagrant/script.sh
+    
+    - name: set cron job to check uptime of the server every 12 am
+      cron:
+        name: set cron job to check uptime of the server every 12 am
+        minute: "0"
+        hour: "0"
+        day: "*"
+        month: "*"
+        weekday: "*"
+        job: /usr/bin/uptime > /var/log/uptime_check.log 2>&1"
+        state: present
+
